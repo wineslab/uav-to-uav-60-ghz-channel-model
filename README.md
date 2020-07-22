@@ -1,3 +1,9 @@
+## Experimental UAV-to-UAV mmWave Channel Model
+
+This repository contains the dataset and MATLAB scripts to generate the results for the paper M. Polese, L. Bertizzolo, L. Bonati, A. Gosain, T. Melodia, An Experimental mmWave Channel Model for UAV-to-UAV Communications, in Proc. of ACM Workshop on Millimeter-Wave Networks and Sensing Systems (mmNets), London, UK, Sept. 2020. Please cite the paper if you plan to use the model, data, or code in your publication.
+
+## Instructions
+
 The file `dataset.csv` contains the measured data as processed by Facebook Terragraph sounders.
 
 You can load and save the processed data in a `.mat` file using `load_dataset.m`. Then, the scripts `fit_6.m`, `fit_12.m`, `fit_15.m` and `fit_6_12_15.m` perform the fit on the measurements. Finally, `compare_height.m`, `compare_3gpp.m`, `compare_beam_dist.m`, and `compare_beam_error_deg.m` generate the plots shown in the paper.
